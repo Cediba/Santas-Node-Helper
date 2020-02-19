@@ -16,7 +16,7 @@ function question1() {
             }
         }, 0)
         console.timeEnd('santa-time');
-        console.log('floor:', answer);
+        console.log('Floor:', answer);
     })
 }
 question1();
@@ -40,7 +40,7 @@ function question2() {
             counter ++
             return acc < 0;
         })
-        console.log('basement entered at:', counter);
+        console.log('Basement entered at:', counter);
     })
 }
 
